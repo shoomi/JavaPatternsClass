@@ -28,6 +28,7 @@ public class ShoppingCart {
         return sum;
     }
 
+    //реалізація через DI
     public void pay(PaymentStrategy paymentMethod){
         int amount = calculateTotal();
         paymentMethod.pay(amount);

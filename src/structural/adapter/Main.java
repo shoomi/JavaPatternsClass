@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         RoundHole roundHole = new RoundHole(30);
-        SquarePegAdapter squarePegAdapter = new SquarePegAdapter(new SquarePeg(34));
+        SquareShapeAdapter squarePegAdapter = new SquareShapeAdapter(new SquareShape(34));
         System.out.println(roundHole.fits(squarePegAdapter));
     }
 }

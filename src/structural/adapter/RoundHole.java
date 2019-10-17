@@ -13,8 +13,6 @@ public class RoundHole {
     }
 
     public boolean fits(Figure peg) {
-        boolean result;
-        result = (this.getRadius() >= peg.getRadius());
-        return result;
+        return this.getRadius() >= peg.getRadius();
     }
 }

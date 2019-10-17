@@ -1,12 +1,12 @@
 package structural.adapter;
 
-public class RoundPeg implements Figure {
+public class RoundShape implements Figure {
 
     private double radius;
 
-    public RoundPeg() {}
+    public RoundShape() {}
 
-    public RoundPeg(double radius) {
+    public RoundShape(double radius) {
         this.radius = radius;
     }
 
