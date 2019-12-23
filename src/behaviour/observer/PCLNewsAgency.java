@@ -9,6 +9,10 @@ public class PCLNewsAgency {
 
     private PropertyChangeSupport support;
 
+    public String getSomeValue() {
+        return someValue;
+    }
+
     public PCLNewsAgency() {
         support = new PropertyChangeSupport(this);
     }

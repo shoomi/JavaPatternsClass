@@ -1,6 +1,7 @@
 package structural.decorator;
 
 // Дає змогу динамічно додавати об'єктам нову функціональність, загортаючи їх у своєрідні класи «обгортки»
+//
 public class Main {
 
     public static void main(String[] args) {

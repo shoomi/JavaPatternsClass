@@ -3,7 +3,7 @@ package structural.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HeadDepartment implements Department {
+public class HeadDepartment {
     private Integer id;
     private String name;
 

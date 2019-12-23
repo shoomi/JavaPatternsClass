@@ -28,7 +28,7 @@ public class ShoppingCart {
         return sum;
     }
 
-    //реалізація через DI
+    //реалізація через DI, тут немає привязки до конктетного виду платежу
     public void pay(PaymentStrategy paymentMethod){
         int amount = calculateTotal();
         paymentMethod.pay(amount);
