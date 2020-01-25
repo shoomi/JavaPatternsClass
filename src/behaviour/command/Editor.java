@@ -68,9 +68,9 @@ public class Editor {
     private void undo() {
         if (history.isEmpty()) return;
 
-        Command command = history.pop();
+        Command command = history.pop(); // тут ми отримуєм останню команду яку виконували з Stack
         if (command != null) {
-            command.undo();
+            command.undo();  // оскільки Command містить backup про текст, - ми по ньому відновлюєм попередній стан
         }
     }
 }

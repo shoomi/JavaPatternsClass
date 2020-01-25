@@ -10,7 +10,8 @@ public abstract class Command {
 
     void backup() {
         backup = editor.textField.getText();
-    }
+    }   // перед кожною операцію створюється новий бекап а потім обєкт Command запихається у Stack у CommandHistory
+        // по цьому бекапу і буде відновлюватись попередній стан тексту після undo
 
     public void undo() {
         editor.textField.setText(backup);
