@@ -21,5 +21,7 @@ public abstract class CarBuilder<T> {
     abstract void setColor();
     abstract void setEngine();
     abstract void setSpeed();
+    abstract boolean turbocharger();
+    abstract boolean spoiler();
 
 }

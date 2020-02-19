@@ -16,4 +16,14 @@ public class SportModel extends CarBuilder<Car> {
     void setSpeed() {
         t.setSpeed(210);
     }
+
+    @Override
+    boolean turbocharger() {
+        return true;
+    }
+
+    @Override
+    boolean spoiler() {
+        return true;
+    }
 }

@@ -12,6 +12,14 @@ public class Director {
         carBuilder.setEngine();
         carBuilder.setColor();
         carBuilder.setSpeed();
+        carBuilder.turbocharger();
+        carBuilder.spoiler();
+    }
+
+    public void buildOldCar() {
+        carBuilder.setEngine();
+        carBuilder.setColor();
+        carBuilder.setSpeed();
     }
 
     public void buidOldCar() {

@@ -17,4 +17,14 @@ public class OldModel extends CarBuilder<Car> {
     void setSpeed() {
 
     }
+
+    @Override
+    boolean turbocharger() {
+        return false;
+    }
+
+    @Override
+    boolean spoiler() {
+        return false;
+    }
 }

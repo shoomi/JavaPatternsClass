@@ -5,6 +5,8 @@ public class Car {
     private String color;
     private  int speed;
     private String engine;
+    private boolean turbocharger;
+    private boolean spoiler;
 
     public String getColor() {
         return color;
@@ -28,5 +30,21 @@ public class Car {
 
     public void setEngine(String engine) {
         this.engine = engine;
+    }
+
+    public boolean isTurbocharger() {
+        return turbocharger;
+    }
+
+    public void setTurbocharger(boolean turbocharger) {
+        this.turbocharger = turbocharger;
+    }
+
+    public boolean isSpoiler() {
+        return spoiler;
+    }
+
+    public void setSpoiler(boolean spoiler) {
+        this.spoiler = spoiler;
     }
 }
