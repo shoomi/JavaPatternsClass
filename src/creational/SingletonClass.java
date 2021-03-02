@@ -1,17 +1,14 @@
 package creational;
 
-import java.text.SimpleDateFormat;
-
 public class SingletonClass {
     private static volatile SingletonClass singletonClassp;
 
     private SingletonClass() {
     }
-    
+
     {
         System.out.println("instance of the singleton has benn created");
     }
-
 
 
     public static SingletonClass getInstance() {

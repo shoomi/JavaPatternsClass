@@ -1,7 +1,5 @@
 package creational.abstractFactory.first;
 
-import creational.factoryMethod.PC;
-
 public class Notebook implements PC {
 
     public String name;
