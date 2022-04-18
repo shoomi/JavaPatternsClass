@@ -1,4 +1,4 @@
-package behaviour.mediator.colleague;
+package behaviour.mediator.mediator;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
-package behaviour.mediator.colleague;
+package behaviour.mediator.mediator;
 
 public class ConcreteColleague extends Colleague {
-
     public ConcreteColleague(Mediator m) {
         super(m);
     }

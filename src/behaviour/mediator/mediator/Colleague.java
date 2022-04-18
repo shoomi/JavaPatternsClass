@@ -1,4 +1,4 @@
-package behaviour.mediator.colleague;
+package behaviour.mediator.mediator;
 
 public abstract class Colleague {
     private Mediator mediator;

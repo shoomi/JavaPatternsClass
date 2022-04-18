@@ -1,4 +1,4 @@
-package behaviour.mediator.colleague;
+package behaviour.mediator.mediator;
 
 public class MobileColleague extends Colleague {
     public MobileColleague(Mediator m) {

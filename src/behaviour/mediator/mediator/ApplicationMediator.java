@@ -1,4 +1,4 @@
-package behaviour.mediator.colleague;
+package behaviour.mediator.mediator;
 
 import java.util.ArrayList;
 
