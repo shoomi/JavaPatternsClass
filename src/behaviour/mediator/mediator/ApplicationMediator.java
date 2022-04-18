@@ -3,11 +3,7 @@ package behaviour.mediator.mediator;
 import java.util.ArrayList;
 
 public class ApplicationMediator implements Mediator {
-    private ArrayList<Colleague> colleagues;
-
-    public ApplicationMediator() {
-        colleagues = new ArrayList<Colleague>();
-    }
+    private ArrayList<Colleague> colleagues = new ArrayList<>();
 
     public void addColleague(Colleague colleague) {
         colleagues.add(colleague);
