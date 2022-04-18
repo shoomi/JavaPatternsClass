@@ -1,19 +1,17 @@
 package behaviour.mediator.with_mediator;
 
 public class Button {
-    private Fan fan = new Fan();
+    private Mediator mediator;
 
-    // constructor, getters and setters
-
-    public void press(){
-        if(fan.isOn()){
-            fan.turnOff();
-        } else {
-            fan.turnOn();
-        }
+    public Button(Mediator mediator) {
+        this.mediator = mediator;
     }
 
-    public Fan getFan() {
-        return fan;
+    public void press() {
+        mediator.press();
+    }
+
+    public Mediator getMediator() {
+        return mediator;
     }
 }

@@ -1,4 +1,4 @@
-package behaviour.mediator.without_mediator;
+package behaviour.mediator.with_mediator;
 
 public interface Mediator {
     void press();

@@ -1,4 +1,4 @@
-package behaviour.mediator.without_mediator;
+package behaviour.mediator.with_mediator;
 
 public class ButtonMediator implements Mediator {
     Fan fan = new Fan();
